@@ -51,7 +51,7 @@ const Header = () => {
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <NavLink
-                      className="nav-link active"
+                      className="nav-link"
                       aria-current="page"
                       to={"/"}
                     >
@@ -59,12 +59,12 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" to={"About"}>
+                    <NavLink className="nav-link" to={"/survey-specific-questions"}>
                       About Us
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" to={"Publicationspodcast"}>
+                    <NavLink className="nav-link" to={"/satisfaction-survey-questions"}>
                       publications & podcast
                     </NavLink>
                   </li>
@@ -74,12 +74,12 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" to={"Lifesciences"}>
+                    <NavLink className="nav-link" to={"/collector-signature"}>
                       life sciences
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" to={"Resources"}>
+                    <NavLink className="nav-link" to={"/final-thoughts"}>
                       resources
                     </NavLink>
                   </li>
@@ -89,7 +89,7 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li className="nav-item contact_nav">
-                    <NavLink className="nav-link" to={"Contact"}>
+                    <NavLink className="nav-link" to={"/thankyou"}>
                       Contact Us
                     </NavLink>
                   </li>
